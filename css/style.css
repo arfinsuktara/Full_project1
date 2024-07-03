@@ -1,0 +1,435 @@
+/* All common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+/*h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All common css end */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}   
+.nav-link{
+    color:#fff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .4s;
+}
+.nav-link:hover{
+    color:#4756DF;
+
+   
+}
+.contact_btn{
+    padding: 15px 42px;
+    background: #4756DF;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+/* Banner part start */
+#banner_part{
+    background: url(../images/agenc-Banner\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_overly{
+    padding-top: 330px;
+    padding-bottom: 165px;
+    background: rgba(0, 0, 0, 0.62);
+}
+.banner_text h1{
+    font-family: "Inter", sans-serif;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+.banner_text p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 214px;
+
+}
+
+.banner_text a{
+    padding: 15px 42px;
+    background: #4756DF;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+/* Banner part end */
+
+/* counter part start */
+#counter_part{
+    padding-top: 170px;
+    padding-bottom: 80px;
+}
+.extra_bg{
+    padding: 95px 50PX;
+    background: #E0FFF9;
+}
+.counter_left_text p{
+    padding-bottom: 30px;
+    color: #6A4DF4;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.counter_left_text h3{
+   
+    color:#151515;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 38px;
+}
+.counter_item h3{
+    color:#151515;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.counter_item p{
+    padding-top: 20px;
+    color:#737373;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+/* counterpart end */
+
+/* service part start */
+#service_name_part{
+    padding-top: 80px;
+    padding-bottom: 30px;
+
+}
+.service_name_text h3{
+    color:#151515;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    
+}
+.service_name_text p{
+    color:#737373;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 330px;
+
+}
+#service_part{
+    padding-top: 30px;
+    padding-bottom: 80px;
+} 
+.service_item:hover{
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+
+}  
+.service_item{
+    padding: 55px;
+    transition: .4s;
+}
+.service_text h3{
+    color:#151515;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    
+
+
+}
+.seervice_text p{
+    color:#737373;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+
+}
+
+
+/* service part end */
+
+/* work part start */
+
+
+.work_name_part{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background: #fff;
+}
+
+.work_name_text h3{
+    font-family: "Inter", sans-serif;
+   font-size: 45px;
+   font-weight: 700;
+   padding-bottom: 20px;
+   color: #151515;
+}
+.work_name_text p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   color: #737373;
+   
+
+}
+
+.work_item{
+    padding: 10px 0px;
+    transition: .4s;
+}
+.work_item:hover{
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+}
+.work_text_part{
+    background: #fff;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    width: 100%;
+}
+.work_text_part h3{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #151515;
+    padding-top: 40px;
+}
+.work_text_part p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+   
+}
+
+
+/* work part end */
+
+/* choose part start */
+#choose_part{
+    padding-top: 150px;
+}
+.choose_part:{
+    border-radius: 5px;
+
+}
+.choose_text_part h3{ 
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    padding: 0 430px;
+    line-height: 50px;
+}
+.choose_text_part p{ 
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    padding:20px 245px;
+    line-height: 26px;
+}
+.choose_agenc{
+    padding-top: 100px;
+}
+.choose_text h3{
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    padding-top: 20px;
+
+}
+.choose_text h3{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    padding-top: 20px;
+    
+    line-height: 26px;
+    padding-right: 75px;
+
+}
+ 
+/*choose part end */
+
+/*review part start */
+#review_part{
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+.review_text_part h3{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 700px;
+    color: #151515;
+
+}
+.review_text_part p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #737373;
+    padding: 15px 335px;
+    line-height: 26px;
+    padding-bottom: 120px;
+}
+.review_item{
+    border-radius: 30px;
+}
+.review_item_hover{
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+}
+.review_icon{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.review_text p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+    padding: 0 50px;
+}
+.review_icon1{
+    display: flex;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.text h3{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 26px;
+    line-height: 120%;
+    color: #232323;
+}
+.text p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-left: 20px;
+    line-height: 26px;
+    color: #787878;
+}
+/* review part end */
+
+/* register part start */
+#register_part{
+    padding-top: 170px;
+    padding-bottom: 120px;
+    background: #dcdcdc;
+}
+.register_item_text{
+    margin-top: 80px;
+}
+.register_item_text h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px;
+    padding-right: 180px;
+    color: #151515;
+    padding-bottom: 30px;
+
+}
+.register_item_text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 110px;
+    color: #787878;
+    padding-bottom: 30px;
+
+}
+.register_item1{
+    background: #fff;
+    padding: 30px 50px 80px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+}
+.register_text h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-bottom: 30px;
+
+}
+/* register part end */
+
+/* close part start */
+#close_part{
+    padding-bottom: 50px;
+}
+.close_text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #d0d0d0;
+    padding-top: 50PX;
+    border-top: solid 1PX rgba(0, 0, 0, 0.103);
+}
+/* close part end */
+/* counter part start */
+/* service part end */
+/* counter part start */
+/* service part end */
+/* counter part start */
+/* service part end */
+/* counter part start */
+/* service part end */
+/* counter part start */
+/* service part end */
+/* counter part start */
